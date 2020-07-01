@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './routes/App';
-import IconoBioSeC1 from '../src/assets/static/ico.png'
+import IconoBioSeC from '../src/assets/static/ico.png'
+import IconoBioSeCReg from '../src/assets/static/icoReg.png'
+import IconoBioSeCRes from '../src/assets/static/icoRestaurantes.png'
+import IconoBioSeCMovil from '../src/assets/static/icoMovil.png'
 
 // Redux
 import { Provider } from 'react-redux';
@@ -22,7 +25,7 @@ const initialState = {
 			year: 2020,
 			contentRating: '1/07/2020',
 			duration: 164,
-			cover: '../src/assets/static/ico.png',
+			cover: IconoBioSeC,
 			description: 'Protocolo de Bio Seguridad Empresarial',
 			source: 'https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1',
 		},
@@ -35,7 +38,7 @@ const initialState = {
 			year: 2020,
 			contentRating: '1/07/2020',
 			duration: 137,
-			cover: '../src/assets/static/icoReg.png',
+			cover: IconoBioSeCReg,
 			description: 'Vestibulum ac est lacinia nisi venenatis tristique',
 			source: 'https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1',
 		},
@@ -48,7 +51,7 @@ const initialState = {
 			year: 2020,
 			contentRating: '1/07/2020',
 			duration: 163,
-			cover: '../src/assets/static/icoRestaurantes.png',
+			cover: IconoBioSeCRes,
 			description: 'Vestibulum ac est lacinia nisi venenatis tristique',
 			source: 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
 		},
@@ -61,7 +64,7 @@ const initialState = {
 			year: 2020,
 			contentRating: '1/07/2020',
 			duration: 194,
-			cover: '../src/assets/static/ico.png',
+			cover: IconoBioSeC,
 			description: 'Vestibulum ac est lacinia nisi venenatis tristique',
 			source: 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
 		},
@@ -74,7 +77,7 @@ const initialState = {
 			year: 2020,
 			contentRating: '1/07/2020',
 			duration: 124,
-			cover: '../src/assets/static/icoMovil.png',
+			cover: IconoBioSeCMovil,
 			description: 'Vestibulum ac est lacinia nisi venenatis tristique',
 			source: 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
 		},
@@ -87,7 +90,7 @@ const initialState = {
 			year: 2020,
 			contentRating: '1/07/2020',
 			duration: 179,
-			cover: '../src/assets/static/ico.png',
+			cover: IconoBioSeC,
 			description: 'Vestibulum ac est lacinia nisi venenatis tristique',
 			source: 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
 		},
