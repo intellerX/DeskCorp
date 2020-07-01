@@ -23,7 +23,7 @@ const initialState = {
 			contentRating: '1/07/2020',
 			duration: 164,
 			cover: '../src/assets/static/ico.png',
-			description: 'Vestibulum ac est lacinia nisi venenatis tristique',
+			description: 'Protocolo de Bio Seguridad Empresarial',
 			source: 'https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1',
 		},
 		{
