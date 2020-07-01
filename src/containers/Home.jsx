@@ -6,8 +6,8 @@ import Carousel from '../components/Carousel';
 import CarouselItem from '../components/CarouselItem';
 import '../assets/styles/components/Home.scss';
 import Image1 from '../assets/static/Image11.jpg'
-import Image2 from '../assets/static/Captura.png'
-import Image3 from '../assets/static/Captura2.png'
+import Image2 from '../assets/static/Captura.jpg'
+import Image3 from '../assets/static/Captura2.jpg'
 
 import '../assets/styles/App.scss';
 
