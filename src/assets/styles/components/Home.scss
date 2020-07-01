@@ -8,11 +8,7 @@
     margin-right: 25%;
     margin-bottom: 100px;
 }
-.carousel{
-    overflow-x:hidden;
-    overflow-y:hidden;
-    text-align: center;
-}
+
 
 .title {
     font-size: 60px;
@@ -26,10 +22,22 @@
 }
 
 .image1{
-    width: 90%;
+    width: 100%;
     height: 560px;
     object-position: 50% 50%;
     object-fit: cover;
+}
+.image2{
+  width: 100%;
+  object-position: 50% 50%;
+  object-fit: cover;
+  margin-bottom: 100px;
+}
+.image3{
+  width: 100%;
+  height: 560px;
+  object-position: 50% 50%;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 600px) {
