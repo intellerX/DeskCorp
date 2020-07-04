@@ -5,7 +5,6 @@ import IconoBioSeC from '../src/assets/static/ico.png'
 import IconoBioSeCReg from '../src/assets/static/icoReg.png'
 import IconoBioSeCRes from '../src/assets/static/icoRestaurantes.png'
 import IconoBioSeCMovil from '../src/assets/static/icoMovil.png'
-import se from '../src/assets/static/s.jpg'
 
 // Redux
 import { Provider } from 'react-redux';
@@ -26,7 +25,7 @@ const initialState = {
 			year: 2020,
 			contentRating: '1/07/2020',
 			duration: 164,
-			cover: se,
+			cover: IconoBioSeC,
 			description: 'Protocolo de Bio Seguridad Empresarial',
 			source: 'https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1',
 		},
