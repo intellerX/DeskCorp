@@ -53,7 +53,7 @@ const initialState = {
 			duration: 163,
 			cover: IconoBioSeCRes,
 			description: 'Vestibulum ac est lacinia nisi venenatis tristique',
-			source: 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+			source: 'https://drive.google.com/u/0/uc?export=download&confirm=SJQ1&id=1eLINXVWlyI_HPdVpDHuhTirGuTotdTCb',
 		},
 		{
 			id: 5,
