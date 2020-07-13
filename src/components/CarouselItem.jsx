@@ -1,52 +1,51 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import '../assets/styles/components/CarouselItem.scss';
 import playIcon from '../assets/static/play-icon.png';
 import plusIcon from '../assets/static/plus-icon.png';
-import {setFavorite , deleteFavorite} from '../actions';
-import removeIcon from '../assets/static/remove-icon.png';
-import {Link} from 'react-router-dom';
+import { setFavorite, deleteFavorite } from '../actions';
 
-const CarouselItem = (props) => {  
-  const {id,cover , title , year , contentRating , duration , source} = props;
+const CarouselItem = (props) => {
+  const { id, cover, title, year, contentRating, duration, source } = props;
   const handleSetFavorite = () => {
     props.setFavorite({
-      id,cover,title,year,contentRating,duration
-    })
-  }
+      id, cover, title, year, contentRating, duration,
+    });
+  };
 
   const handleDeleteFavorite = (itemId) => {
-    props.deleteFavorite(itemId)
-  }
-  
-  return(
-    <div className="carousel-item">
-      <img className="carousel-item__img" src={cover} alt={title}  />
-      <div className="carousel-item__details">
+    props.deleteFavorite(itemId);
+  };
+
+  return (
+    <div className='carousel-item'>
+      <img className='carousel-item__img' src={cover} alt={title} />
+      <div className='carousel-item__details'>
         <div>
           <a href={source}>
-            <img 
-              className="carousel-item__details--img"
-              src={playIcon} 
-              alt="Download Icon"
+            <img
+              className='carousel-item__details--img'
+              src={playIcon}
+              alt='Download Icon'
             />
           </a>
-          
+
           <img
-            className="carousel-item__details--img"
-            src={plusIcon} alt="Plus Icon"            
-          /> 
-          
+            className='carousel-item__details--img'
+            src={plusIcon}
+            alt='Plus Icon'
+          />
+
         </div>
-        <p className="carousel-item__details--title">{title}</p>
-        <p className="carousel-item__details--subtitle">
+        <p className='carousel-item__details--title'>{title}</p>
+        <p className='carousel-item__details--subtitle'>
           {`${year} ${contentRating} ${duration}`}
         </p>
       </div>
     </div>
   );
-}
+};
 
 CarouselItem.propTypes = {
   cover: PropTypes.string,
@@ -54,11 +53,11 @@ CarouselItem.propTypes = {
   year: PropTypes.number,
   contentRating: PropTypes.string,
   duration: PropTypes.number,
-}
+};
 
 const mapDispatchToProps = {
   setFavorite,
   deleteFavorite,
-}
+};
 
-export default connect(null,mapDispatchToProps)(CarouselItem);
+export default connect(null, mapDispatchToProps)(CarouselItem);
