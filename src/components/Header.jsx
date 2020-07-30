@@ -32,10 +32,10 @@ const Header = (props) => {
       </Link>
 
       <ul id='button' className='buttons'>
-        <li><a href='#'>Inicio</a></li>
-        <li><a href='#'>Servicios</a></li>
-        <li><a href='#'>Pagos</a></li>
-        <li><a href='#'>Contacto</a></li>
+        <li><a href='/'>Inicio</a></li>
+        <li><a href='/servicios'>Servicios</a></li>
+        <li><a href='/servicios'>Productos</a></li>
+        <li><a href='/contacto'>Contacto</a></li>
       </ul>
 
       <div className='header__menu'>

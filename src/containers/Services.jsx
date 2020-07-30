@@ -17,6 +17,16 @@ const Services = ({ trends }) => {
         </Carousel>
       </Categories>
 
+      <iframe
+        title='BioSeC19'
+        width='560'
+        height='315'
+        src='https://www.youtube.com/embed/F4ovuRFURiU?rel=0;autoplay=1'
+        frameBorder='0'
+        allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+        allowFullScreen
+      />
+
       <Categories title='Productos'>
         <Carousel className='carousel'>
           {trends.map(item => (
