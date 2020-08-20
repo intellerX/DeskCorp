@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/styles/components/Contact.scss';
 
 const Contact = () => {
-  
+
   return (
 
     <section className='main'>

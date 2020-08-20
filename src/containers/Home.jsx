@@ -8,6 +8,11 @@ import Image1 from '../assets/static/Image11.jpg';
 import Image2 from '../assets/static/Captura.jpg';
 import Image3 from '../assets/static/Captura2.jpg';
 
+import LogoScaler from '../assets/static/logoSkaler.png';
+import LogoBell from '../assets/static/logoBell.png';
+import LogoC from '../assets/static/logoCys.png';
+
+
 import '../assets/styles/App.scss';
 
 const Home = ({ trends }) => {
@@ -21,10 +26,9 @@ const Home = ({ trends }) => {
 
       <div>
         <h1 className='title__2'>Misión</h1>
-        <h3>Un Futuro sostenible</h3>
+        <h3>Un Futuro Sostenible</h3>
         <p className='par'>
-          Somos un grupo de emprendedores(as) e ingenieros(as) llenos de talento con una idea innovadora que esperamos que contribuya a tener un futuro mejor. Ofrecemos soluciones inteligentes para empresas de cualquier tamaño y nos llena de orgullo la inigualable dedicación que ponemos en todos nuestros servicios.
-          En Desk Corp creemos que el conocimiento y las ventajas tecnológicas adecuados pueden llevar al éxito de las empresas. Siempre buscamos la opinión de nuestros clientes para aprender y evolucionar. Contáctanos hoy mismo para concretar una reunión con uno de nuestros representantes de ventas o para solicitar una demostración.
+          Desarrollar soluciones prácticas digitales a la medida, para gestionar procesos criticos de la compañía, con metodologias y estandares internacionales, que soporten la rentabilidad y sostenibilidad de los negocios.
         </p>
       </div>
 
@@ -38,9 +42,10 @@ const Home = ({ trends }) => {
 
       <div className='panel__info'>
         <div className='panel1'>
-          <h2 className='title__2'>Quiénes somos</h2>
+          <h2 className='title__2'>¿Qué ofrecemos?</h2>
           <p>
-            Somos un grupo de emprendedores(as) e ingenieros(as) llenos de talento con una idea innovadora que esperamos que contribuya a tener un futuro mejor. Ofrecemos soluciones inteligentes para empresas de cualquier tamaño y nos llena de orgullo la inigualable dedicación que ponemos en todos nuestros servicios.
+            Ofrecer soluciones para las empresas con diferentes programas (Software) que les ayuden a gestionar sus procesos, siendo eficacez y eficientes en la forma de adminsitrarlos, permitiendoles tomar mejores decisiones para ser rentables y sotenibles.
+
           </p>
 
         </div>
@@ -63,7 +68,13 @@ const Home = ({ trends }) => {
         <div className='panel2'>
           <img className='panel2__image2' id='Image2' data-type='image' src={Image3} alt='img2' />
         </div>
+      </div>
 
+      <h2>Aliados tecnológicos</h2>
+      <div className='panel__aliados'>
+        <img src={LogoScaler} alt='Logo Skaler' className='panel__aliados--logo' />
+        <img src={LogoBell} alt='Logo Bell' className='panel__aliados--logo' />
+        <img src={LogoC} alt='Logo Cys' className='panel__aliados--logo' />
       </div>
 
     </div>
